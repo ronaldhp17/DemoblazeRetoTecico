@@ -1,0 +1,5 @@
+Faltan validaciones por parte del back, la mayoría se hacen desde el front, los servicios tienen los mismos status, no importa si es un caso alterno o un caso del happy path.
+
+Recomendaciones
+Realizar las validaciones de los servicios en el back
+Que se mapeen los status como es debido dependiendo la capa en la que falle

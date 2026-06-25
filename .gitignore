@@ -1,0 +1,71 @@
+# ================================================================
+#  .gitignore - Proyecto KarateDSL
+# ================================================================
+
+# ── Maven - build y dependencias ────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+# ── Karate - reportes y logs generados ─────────────────────────
+karate-reports/
+target/karate-reports/
+target/surefire-reports/
+target/failsafe-reports/
+karate.log
+*.log
+
+# ── IntelliJ IDEA ───────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ── Eclipse ─────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# ── VS Code ─────────────────────────────────────────────────────
+.vscode/
+
+# ── NetBeans ────────────────────────────────────────────────────
+nbproject/
+nbbuild/
+nbdist/
+
+# ── Sistema operativo ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Variables de entorno y configuración sensible ───────────────
+.env
+.env.local
+.env.*.local
+*.properties.local
+secrets.properties
+
+# ── Archivos temporales ─────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*.orig
