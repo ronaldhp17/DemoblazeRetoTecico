@@ -3,7 +3,11 @@
 # ================================================================
 
 # ── Maven - build y dependencias ────────────────────────────────
-target/
+#target/
+classes
+generated-test-sources
+maven-status
+test-classes
 *.class
 *.jar
 *.war
